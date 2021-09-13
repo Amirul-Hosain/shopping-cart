@@ -21,20 +21,9 @@
 </head>
 
 <body>
-  <!-- search bar -->
-  <div class="search-field">
-    <div class="search-box">
-      <input id="input-field" class="search-field" type="text" />
-      <button type="button" class="btn btn-info search-button" data-toggle="button" aria-pressed="false"
-        autocomplete="off" id="search-btn" onclick="loadProducts()">
-        Search
-      </button>
-    </div>
-  </div>
-
   <main class="main">
     <!------------- search and button ------------->
-    <!-- <div class="search-field">
+    <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" />
         <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
@@ -42,13 +31,12 @@
           Search
         </button>
       </div>
-    </div> -->
+    </div>
 
     <!------------------ cart display ----------------->
     <div class="row">
       <div class="col-md-6 col-lg-8 col-sm-12">
         <div id="all-products">
-          <!-- <h1></h1> -->
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
@@ -64,24 +52,29 @@
               </tr>
             </thead>
             <tbody>
+              <!-- number of products -->
               <tr>
                 <th>Total Added-Products:</th>
                 <td id="total-Products">0</td>
                 <td></td>
                 <td></td>
               </tr>
+              <!-- products price -->
               <tr>
                 <th>Price:</th>
                 <td>$ <span id="price">0</span></td>
               </tr>
+              <!-- products delivery charge -->
               <tr>
                 <th>Delivery-Charge:</th>
                 <td>$ <span id="delivery-charge">20</span></td>
               </tr>
+              <!-- total products tax -->
               <tr>
                 <th>Total-Tax:</th>
                 <td>$ <span id="total-tax">0</span></td>
               </tr>
+              <!-- total cost of products -->
               <tr>
                 <th scope="row">Total</th>
                 <td colspan="2">$ <span id="total">0</span></td>

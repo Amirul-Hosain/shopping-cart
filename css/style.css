@@ -1,9 +1,10 @@
+
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
 
-/*---------------------- input field designed --------------------*/
+/*---------------- input field ---------------*/
 .search-field {
   border: none;
   border-radius: 50px;
@@ -22,6 +23,8 @@ body {
   margin-top: 50px;
   border-right: none;
 }
+
+/*----------------- search button --------------*/
 .search-button {
   border: none;
   padding: 10px 50px;
@@ -30,7 +33,7 @@ body {
   background-color: aqua;
 }
 
-/*---------------------- Product cart --------------------*/
+/*------------------- Product cart -----------------*/
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -82,7 +85,7 @@ body {
   padding-right: 30px;
 }
 
-/*----------------------------- shopping cart responsive -----------------------*/
+/*---------------------- cart responsive -----------------*/
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
